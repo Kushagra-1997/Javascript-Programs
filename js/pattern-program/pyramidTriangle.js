@@ -9,7 +9,7 @@ function printPyramidTriangle(rows) {
 
    // Add stars with spaces between them
    for (let k = 1; k <= (2 * i - 1); k++) {
-     line += k;
+     line += '*';
    }
 
    console.log(line);
